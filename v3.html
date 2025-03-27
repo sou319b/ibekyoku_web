@@ -1,0 +1,433 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>学友会イベント局 - 新入生募集</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;500;700&family=Poppins:wght@500;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <!-- ヘッダー -->
+  <header>
+    <div class="container header-container">
+      <div class="logo">
+        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#00c853" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+          <polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"></polygon>
+        </svg>
+        <span class="logo-text">学友会イベント局</span>
+      </div>
+      
+      <nav>
+        <a href="#about">イベント局とは</a>
+        <a href="#events">イベント</a>
+        <a href="#members">メンバー</a>
+        <a href="#join">新歓</a>
+      </nav>
+      
+      <a href="#join" class="btn btn-primary header-btn">新入生募集中！</a>
+      
+      <button class="menu-btn">
+        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+          <line x1="4" x2="20" y1="12" y2="12"></line>
+          <line x1="4" x2="20" y1="6" y2="6"></line>
+          <line x1="4" x2="20" y1="18" y2="18"></line>
+        </svg>
+        <span style="position: absolute; width: 1px; height: 1px; padding: 0; margin: -1px; overflow: hidden; clip: rect(0, 0, 0, 0); white-space: nowrap; border-width: 0;">メニューを開く</span>
+      </button>
+    </div>
+  </header>
+
+  <main>
+    <!-- ヒーローセクション -->
+    <section class="hero">
+      <div class="container">
+        <div class="hero-container">
+          <div class="hero-content">
+            <!-- <div class="hero-title-chars">
+              <div class="hero-char">あ</div>
+              <div class="hero-char">つ</div>
+              <div class="hero-char">ま</div>
+              <div class="hero-char">れ</div>
+            </div>
+             -->
+            <img src="img/ibekyoku_logo.png" alt="学友会イベント局ロゴ" style="max-width: 600px; margin-bottom: 16px;">
+            <!-- <h1 class="hero-title">
+              <span class="hero-title-white">学友会</span>
+              <span class="hero-title-yellow">イベント局</span>
+              
+            </h1>
+             -->
+            <p class="hero-description">
+              幾徳祭をともに盛り上げてくれる仲間、大募集！！
+            </p>
+            
+            <div class="hero-buttons">
+              <a href="#join" class="btn btn-primary">新歓に参加する！</a>
+              <a href="#about" class="btn btn-outline">もっと知りたい</a>
+            </div>
+          </div>
+          
+          <div class="hero-image">
+            <img src="img/huraitokun.jpg" alt="学園祭の様子">
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- SNSバナー -->
+    <section class="sns-banner">
+      <div class="container sns-container">
+        <p class="sns-text">最新情報はSNSでチェック！</p>
+        
+        <div class="sns-links">
+          <a href="#" class="sns-link">
+          </a>
+          <a href="https://x.com/kait_jikkou" class="sns-link">
+            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <path d="M22 4s-.7 2.1-2 3.4c1.6 10-9.4 17.3-18 11.6 2.2.1 4.4-.6 6-2C3 15.5.5 9.6 3 5c2.2 2.6 5.6 4.1 9 4-.9-4.2 4-6.6 7-3.8 1.1 0 3-1.2 3-1.2z"></path>
+            </svg>
+            <span>@kait_jikkou</span>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- 団体紹介 -->
+    <section id="about" class="section-bg-light">
+      <div class="container">
+        <div class="section-header">
+          <h2 class="section-title">
+            <span class="section-title-accent">イベント局</span>ってどんなところ？
+          </h2>
+          <p class="section-description">
+            私たちは神奈川工科大学の学園祭「幾徳祭」の運営を行うクラブです。
+            11月にある幾徳祭に向けて、1年間を通し、縁の下の力持ちとして事務作業を中心に活動しています！
+          </p>
+        </div>
+
+        <div class="about-cards">
+          <div class="about-card">
+            <h3 class="about-card-title">学園祭の運営！</h3>
+            <p>
+              幾徳祭をともに盛り上げてくれる仲間を募集しています！
+              年間を通して様々なイベントを企画・運営しています。
+            </p>
+            <img src="img/gakuennsai.png" alt="イベントの様子" class="about-card-image">
+          </div>
+
+          <div class="about-card">
+            <h3 class="about-card-title">仲間がたくさんできる！</h3>
+            <p>
+              様々な学部・学科の学生が集まるので、普段関わることのない人とも
+              友達になれます。
+            </p>
+            <img src="img/nakama.png" alt="メンバーの集合写真" class="about-card-image">
+          </div>
+
+          <div class="about-card">
+            <h3 class="about-card-title">スキルが身につく！</h3>
+            <p>
+              企画力、コミュニケーション能力、リーダーシップなど、 社会に出ても役立つスキルが自然と身につきます。
+            </p>
+            <img src="img/sukiru.png" alt="ミーティングの様子" class="about-card-image">
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- イベント写真 -->
+    <section id="events">
+      <div class="container">
+        <div class="section-header">
+          <h2 class="section-title">
+            イベントの<span class="section-title-accent">写真</span>ギャラリー
+          </h2>
+          <p class="section-description">
+            過去の学園祭の様子をご紹介！
+          </p>
+        </div>
+
+        <div class="gallery">
+          <div class="gallery-item">
+            <img src="img/1 (1).jpg" alt="イベント写真1" class="gallery-image">
+          </div>
+          <!-- <div class="gallery-item">
+            <img src="img/1 (2).jpg" alt="イベント写真2" class="gallery-image">
+          </div> -->
+          <div class="gallery-item">
+            <img src="img/2 (1).jpg" alt="イベント写真3" class="gallery-image">
+          </div>
+          <div class="gallery-item">
+            <img src="img/2 (2).jpg" alt="イベント写真4" class="gallery-image">
+          </div>
+          <div class="gallery-item">
+            <img src="img/1 (5).jpg" alt="イベント写真5" class="gallery-image">
+          </div>
+         
+        </div>
+
+      </div>
+    </section>
+
+    <!-- メンバー紹介 -->
+    <section id="members" class="section-bg-light">
+      <div class="container">
+        <div class="section-header">
+          <h2 class="section-title">
+            <span class="section-title-accent">先輩</span>からのメッセージ
+          </h2>
+          <p class="section-description">現役メンバーからのリアルな声をお届け！</p>
+        </div>
+
+        <div class="members-cards">
+          <div class="member-card">
+            <div class="member-avatar">
+              <div class="member-avatar-inner">
+                <img src="https://placehold.jp/100x100.png" alt="山田太郎さん" class="member-avatar-image">
+              </div>
+            </div>
+            <div class="member-content">
+              <div class="member-info">
+                <h3 class="member-name">齋 颯平</h3>
+                <p class="member-department">情報学部3年</p>
+              </div>
+              <div class="member-message">
+                <p class="member-quote">
+                  「イベント局に入って本当に良かった！企画を考えるのは大変だけど、
+                  イベントが成功したときの達成感がたまらない！ 大学生活で一番の思い出になってます！」
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div class="member-card">
+            <div class="member-avatar">
+              <div class="member-avatar-inner">
+                <img src="https://placehold.jp/100x100.png" alt="佐藤花子さん" class="member-avatar-image">
+              </div>
+            </div>
+            <div class="member-content">
+              <div class="member-info">
+                <h3 class="member-name">佐藤花子</h3>
+                <p class="member-department">情報学3年</p>
+              </div>
+              <div class="member-message">
+                <p class="member-quote">
+                  「最初は不安だったけど、先輩たちが優しくて楽しい！ イベントを通じて友達もたくさんできたし、
+                  大学生活が充実してます！新入生のみんなも絶対来てね！」
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div class="member-card">
+            <div class="member-avatar">
+              <div class="member-avatar-inner">
+                <img src="https://placehold.jp/100x100.png" alt="鈴木一郎さん" class="member-avatar-image">
+              </div>
+            </div>
+            <div class="member-content">
+              <div class="member-info">
+                <h3 class="member-name">鈴木一郎</h3>
+                <p class="member-department">工学部3年</p>
+              </div>
+              <div class="member-message">
+                <p class="member-quote">
+                  「3年間イベント局で活動して、本当に充実した大学生活だった！
+                  就活でもイベント局での経験が評価されたよ。 後輩たちにもこの楽しさを味わってほしい！」
+                </p>
+              </div>
+            </div>
+          </div>
+
+
+        </div>
+      </div>
+    </section>
+
+    <!-- 入会方法 -->
+    <section id="join" class="section-bg-yellow">
+      <div class="container">
+        <div class="section-header">
+          <div class="join-title-chars">
+            <div class="join-char">新</div>
+            <div class="join-char">入</div>
+            <div class="join-char">生</div>
+            <div class="join-char">大</div>
+            <div class="join-char">募</div>
+            <div class="join-char">集</div>
+            <div class="join-char">中</div>
+          </div>
+          <p class="section-description">
+            幾徳祭をともに盛り上げてくれる仲間を募集しています！
+          </p>
+        </div>
+
+        <div class="join-box">
+          <h3 class="join-box-title">新歓イベント情報</h3>
+
+          <div class="join-section">
+            <h4 class="join-section-title">新入生ガイダンス</h4>
+            <ul class="join-list">
+              <li class="join-list-item">
+                <span class="join-dot">●</span>
+                <span>４月２１日～２５日 １７：３０～１８：３０かもめ食堂</span>
+              </li>
+            </ul>
+          </div>
+
+          <div class="join-section">
+            <h4 class="join-section-title">新歓BBQ</h4>
+            <p>
+              計画中！ちゃんとやるよ！！
+              <br>
+              <span class="join-note">※ちゃんとやります</span>
+            </p>
+          </div>
+
+          <div class="join-section">
+            <h4 class="join-section-title">入るには？</h4>
+            <p>
+              ガイダンスに参加して、その場で名前を書くだけ！
+              <br>
+              ガイダンスに参加できない場合は、SNSでDMを送ってね！
+              <br>
+              直接イベント局室に来てもOK！
+            </p>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- お問い合わせ -->
+    <section id="contact">
+      <div class="container">
+        <div class="section-header">
+          <h2 class="section-title">
+            <span class="section-title-accent">お問い合わせ</span>
+          </h2>
+          <p class="section-description">質問や相談があれば、気軽に連絡してね！</p>
+        </div>
+
+        <div class="contact-container">
+          <div class="contact-info">
+            <div class="contact-card">
+              <h3 class="contact-card-title">連絡先</h3>
+              <ul class="contact-list">
+                <li class="contact-list-item">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#00c853" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <rect x="2" y="2" width="20" height="20" rx="5" ry="5"></rect>
+                    <path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"></path>
+                    <circle cx="17.5" cy="6.5" r="1.5"></circle>
+                  </svg>
+                  <span>Instagram：やってない</span>
+                </li>
+                <li class="contact-list-item">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#00c853" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <path d="M22 4s-.7 2.1-2 3.4c1.6 10-9.4 17.3-18 11.6 2.2.1 4.4-.6 6-2C3 15.5.5 9.6 3 5c2.2 2.6 5.6 4.1 9 4-.9-4.2 4-6.6 7-3.8 1.1 0 3-1.2 3-1.2z"></path>
+                  </svg>
+                  <span>X(旧Twitter)：@kait_jikkou</span>
+                </li>
+                <li class="contact-list-item">メール：ikutoku.jikkou@gmail.com</li>
+              </ul>
+            </div>
+
+            <div class="contact-card">
+              <h3 class="contact-card-title">活動場所</h3>
+              <p>
+                A5号館２階学友会イベント局室
+                <br>
+                平日 17:10から常時開室しています。
+                <br>
+                いつでも遊びに来てね！
+              </p>
+              <p><a href="https://drive.google.com/file/d/16-ku3qZ_l-P49-uztdPrSz9fzKXVOvCI/view?usp=drivesdk" target="_blank" class="contact-link">順序はこちら</a></p>
+
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- フッター -->
+  <footer>
+    <div class="container">
+      <div class="footer-container">
+        <div>
+          <div class="footer-logo">
+            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#ffeb3b" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"></polygon>
+            </svg>
+            <span class="footer-logo-text">学友会イベント局</span>
+          </div>
+          <p class="footer-address">
+            〒243-0292 神奈川県厚木市下荻野１０３０
+            <br>
+            神奈川工科大学 A5号館2階学友会イベント局室
+          </p>
+          <div class="footer-social">
+            <a href="https://x.com/kait_jikkou" class="footer-social-link">
+              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M22 4s-.7 2.1-2 3.4c1.6 10-9.4 17.3-18 11.6 2.2.1 4.4-.6 6-2C3 15.5.5 9.6 3 5c2.2 2.6 5.6 4.1 9 4-.9-4.2 4-6.6 7-3.8 1.1 0 3-1.2 3-1.2z"></path>
+              </svg>
+            </a>
+          </div>
+        </div>
+        <div>
+          <h3 class="footer-links-title">クイックリンク</h3>
+          <nav class="footer-nav">
+            <a href="#about" class="footer-nav-link">イベント局とは</a>
+           
+            <a href="#events" class="footer-nav-link">イベント</a>
+            <a href="#members" class="footer-nav-link">メンバー</a>
+            <a href="#join" class="footer-nav-link">新歓</a>
+            <a href="#contact" class="footer-nav-link">お問い合わせ</a>
+          </nav>
+        </div>
+      </div>
+      <div class="footer-copyright">
+        &copy; 2025 学友会イベント局 All rights reserved.
+      </div>
+    </div>
+  </footer>
+
+  <script>
+    // メニューボタンの動作
+    document.addEventListener('DOMContentLoaded', function() {
+      const menuBtn = document.querySelector('.menu-btn');
+      const nav = document.querySelector('nav');
+      
+      menuBtn.addEventListener('click', function() {
+        if (nav.style.display === 'flex') {
+          nav.style.display = 'none';
+        } else {
+          nav.style.display = 'flex';
+          nav.style.position = 'absolute';
+          nav.style.top = '64px';
+          nav.style.left = '0';
+          nav.style.width = '100%';
+          nav.style.flexDirection = 'column';
+          nav.style.backgroundColor = 'white';
+          nav.style.padding = '16px';
+          nav.style.boxShadow = '0 4px 6px rgba(0, 0, 0, 0.1)';
+        }
+      });
+      
+      // ウィンドウサイズが変更されたときにナビゲーションの表示を調整
+      window.addEventListener('resize', function() {
+        if (window.innerWidth >= 768) {
+          nav.style = '';
+        } else if (nav.style.position === 'absolute') {
+          nav.style.display = 'none';
+        }
+      });
+    });
+  </script>
+</body>
+</html>
