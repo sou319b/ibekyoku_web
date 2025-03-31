@@ -246,6 +246,35 @@ nav a:hover {
   object-fit: cover;
 }
 
+/* ヒーローセクションの画像スタイル */
+.hero-logo {
+  max-width: 100%;
+  height: auto;
+  margin-bottom: 16px;
+}
+
+.hero-img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* レスポンシブスタイル */
+@media (max-width: 768px) {
+  .hero-container {
+    flex-direction: column;
+  }
+  
+  .hero-content, .hero-image {
+    width: 100%;
+  }
+  
+  .hero-image {
+    margin-top: 24px;
+  }
+}
+
 /* SNSバナー */
 .sns-banner {
   width: 100%;
