@@ -1,0 +1,64 @@
+body {
+    /* 白背景 */
+    background-color: #ffffff;
+    font-family: 'Hiragino Kaku Gothic ProN', 'Hiragino Sans', Meiryo, sans-serif; /* 日本語フォント優先 */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    margin: 0;
+    color: #000000; /* 黒文字 */
+}
+
+h1 {
+    font-size: 3.5em;
+    font-weight: bold;
+    margin-bottom: 40px;
+    color: #000000; /* 黒文字 */
+    text-shadow: 
+        1px 1px 0 #cccccc, /* 薄いグレーの影 */
+        -1px 1px 0 #cccccc,
+        1px -1px 0 #cccccc,
+        -1px -1px 0 #cccccc;
+    text-align: center;
+    line-height: 1.3; /* 行間調整 */
+}
+
+/* 画像の金色の円を模した装飾 (オプション) */
+/* body::before {
+    content: '';
+    position: absolute;
+    top: -100px;
+    left: -100px;
+    width: 400px;
+    height: 400px;
+    background: radial-gradient(circle, rgba(233,179,56,0.5) 0%, rgba(255,255,255,0) 70%);
+    border-radius: 50%;
+    z-index: -1; 
+}*/
+
+#countdown {
+    background-color: transparent; /* 背景なし */
+    padding: 20px 40px;
+    border: none; /* 枠線なし */
+    box-shadow: none; /* 影なし */
+    text-align: center;
+}
+
+#countdown p {
+    font-size: 2.2em;
+    margin: 0;
+    color: #000000; /* 黒文字 */
+}
+
+#countdown span {
+    font-weight: bold;
+    color: #e53935; /* 画像の赤色 */
+    font-size: 1.8em; 
+    min-width: 80px; 
+    display: inline-block;
+    text-align: center;
+    margin: 0 8px;
+    text-shadow: 1px 1px 1px rgba(0,0,0,0.1);
+} 

@@ -1,0 +1,60 @@
+body {
+    /* 画像のチェック柄をCSSグラデーションで再現 */
+    background-color: #fde7d0; /* Fallback */
+    background-image: repeating-linear-gradient(45deg, #fce1c6 25%, transparent 25%, transparent 75%, #fce1c6 75%, #fce1c6), 
+                      repeating-linear-gradient(-45deg, #fce1c6 25%, transparent 25%, transparent 75%, #fce1c6 75%, #fce1c6);
+    background-size: 20px 20px;
+
+    font-family: 'Helvetica Neue', Arial, 'Hiragino Kaku Gothic ProN', 'Hiragino Sans', Meiryo, sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    margin: 0;
+    color: #4a2e1a; /* 暗めの茶色 */
+}
+
+h1 {
+    font-size: 3em; /* 少し大きく */
+    font-weight: bold;
+    margin-bottom: 30px;
+    color: white;
+    /* 画像の白い文字のような縁取り効果 */
+    text-shadow: 
+        2px 2px 0 #6d4c41, /* 茶色の影 */
+        -2px 2px 0 #6d4c41,
+        2px -2px 0 #6d4c41,
+        -2px -2px 0 #6d4c41,
+        2px 0px 0 #6d4c41,
+        0px 2px 0 #6d4c41,
+        -2px 0px 0 #6d4c41,
+        0px -2px 0 #6d4c41;
+    text-align: center;
+}
+
+#countdown {
+    background-color: #e0f7fa; /* 画像の水色背景 */
+    padding: 40px 60px;
+    border-radius: 10px;
+    border: 4px solid #8d6e63; /* 画像の茶色枠線 */
+    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.15);
+    text-align: center; /* テキストを中央揃え */
+}
+
+#countdown p {
+    font-size: 2em; /* 少し大きく */
+    margin: 0;
+    color: #37474f; /* やや暗めの青灰色 */
+}
+
+#countdown span {
+    font-weight: bold;
+    color: #ffb300; /* 画像の黄色 */
+    font-size: 1.5em; /* 数字をさらに大きく */
+    min-width: 70px; 
+    display: inline-block;
+    text-align: center;
+    margin: 0 5px; /* 数字間のスペース */
+    text-shadow: 1px 1px 1px rgba(0,0,0,0.1);
+} 
